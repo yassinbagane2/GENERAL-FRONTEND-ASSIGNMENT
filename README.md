@@ -10,8 +10,8 @@ To start the app:
 *   php artisan migrate
 *   php artisan serve
 
-Used packages: 
-    - Flowbite for design : "https://flowbite.com/"
-    - GSAP for animations: "https://gsap.com/"
+Used packages: - Flowbite for design : "https://flowbite.com/" - GSAP for animations: "https://gsap.com/"
 
 Working hours: 12
+
+NOTE: make sure to open the app through localhost and NOT 127.0.0.1

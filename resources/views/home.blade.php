@@ -890,12 +890,12 @@
                     termeni: termeni.value == 'checked',
                 };
                 console.log('termeni.value', termeni.value);
-                if (!termeni.checked) {
-                    alert(
-                        'You must fill out the form and agree with the terms and conditions!',
-                    );
-                    return;
-                }
+                // if (!termeni.checked) {
+                //     alert(
+                //         'You must fill out the form and agree with the terms and conditions!',
+                //     );
+                //     return;
+                // }
                 fetch('http://localhost:8000/contact', {
                     method: 'POST',
                     headers: {
