@@ -186,7 +186,7 @@
             id="home"
             class="max-w-screen-2xl mx-auto flex lg:pt-20 flex-col lg:flex-row justify-between text-white min-h-[80vh]"
         >
-            <div class="relative flex-1 px-3 -z-10">
+            <div class="relative flex-1 px-3">
                 <div class="space-y-2 lg:space-y-7">
                     <h1
                         id="heading1"
@@ -222,7 +222,6 @@
                     >
                         Buy Now
                     </a>
-                    <div></div>
                 </div>
                 <img
                     id="left-rev-art"
@@ -635,7 +634,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex-1 flex justify-center">
+                <div id="contact" class="flex-1 flex justify-center">
                     <form class="mx-2 space-y-3">
                         <div
                             id="validation-errors"
